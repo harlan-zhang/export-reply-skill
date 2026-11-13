@@ -2,6 +2,35 @@
 
 一个通用的 Agent Skill（不是平台专属的专家包）。把海外客户的原话变成一封能直接复制发送的回复，并附简短版、会话要点、下一步动作。
 
+仓库：<https://github.com/harlan-zhang/export-reply-skill>
+
+## 从 GitHub 安装
+
+支持 Git 源安装的客户端（Cherry Studio、Claude Code 等）直接用仓库地址：
+
+```
+https://github.com/harlan-zhang/export-reply-skill
+```
+
+如果客户端支持填 `owner/repo`，用：
+
+```
+harlan-zhang/export-reply-skill
+```
+
+不支持 Git 源时，用归档包链接：
+
+```
+https://github.com/harlan-zhang/export-reply-skill/archive/refs/heads/main.zip
+```
+
+```
+https://github.com/harlan-zhang/export-reply-skill/archive/refs/heads/main.tar.gz
+```
+
+> 注意：`SKILL.md` 位于仓库根目录，`references/` 与 `templates/` 是同级目录。
+> 安装器需要能按路径读取原始文件（raw.githubusercontent.com），不要指向静态站点或带 SPA 回退的地址——那些会把任意路径都返回首页，导致 `references/`、`templates/` 读不到。
+
 ## 这个 Skill 做什么
 
 业务员贴进客户邮件、WhatsApp / Instagram 消息、询盘表单、经销商询价，输出的不是"建议话术"，而是四段成品：
