@@ -22,7 +22,7 @@ Thanks for reaching out. We build matched battery-controller-motor systems for t
 Two things and I can send you a proper price list: which platforms are your main volume, and roughly how many units a month?
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -39,7 +39,7 @@ To put a real offer together I need: the platforms you carry, target specs (volt
 Send those over and you'll have a price list within two working days.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -56,7 +56,7 @@ What I can't quote blind is the MOQ, tooling cost and sample lead time — those
 Tell me which of those you actually need changed and I'll take it to engineering.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -71,7 +71,7 @@ Certification is per SKU and per destination, so I don't want to give you a blan
 Which SKU and which market are you importing into? I'll pull the test and transport documents we have for that exact item and send you the list — then you'll know precisely what's covered and what isn't.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 **要点提示**：锂电运输（UN38.3 / Class 9）是 B2B 客户真正关心的，不要回避。
@@ -88,7 +88,7 @@ Lead time depends on the SKU, the quantity and whether the cells are in stock at
 Once you confirm the SKU and quantity I'll get you the actual production and shipping schedule.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -103,7 +103,7 @@ Battery packs ship as dangerous goods, so the routing and the cost depend heavil
 Send me the destination country and postcode, and whether you need door-to-door with duties included, and I'll come back with the actual options.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -118,7 +118,7 @@ We're open to talking about regional partnerships, but we don't hand out exclusi
 What's your current coverage — which regions, how many dealers, and what annual volume would you be planning for? With that I can put a real proposal in front of the team.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -133,7 +133,7 @@ I won't argue against a spec sheet I haven't tested. What I can tell you is wher
 If the gap is on price, tell me the spec you're being quoted and I'll show you where ours differs — sometimes there's a configuration that closes the gap without dropping the cell grade.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -148,7 +148,7 @@ On the kart side we have the TRBEXA D1 SPORT, which is the drift kart direction 
 What's the project? If it's a fleet or a rental operation I need to know the track type, target runtime per session and how many units you're planning — that's what decides the powertrain spec.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 **要点提示**：R Series 必须说 "in development / not homologated"，速度只能写 target。
@@ -165,7 +165,7 @@ Samples can be arranged. I can't confirm the cost or the lead time until I know 
 Tell me the SKU you want to test and the destination, and I'll come back with the sample cost, the lead time and what we need from you to ship it.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -182,7 +182,7 @@ I'll put together a quote covering the 72V 80Ah and the 80V 80Ah PRO, with the w
 One thing I'll need confirmed: whether you want the standard BMS or the Bluetooth version, since that changes the price line.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -197,7 +197,7 @@ Quick update rather than a chase — the 80V 80Ah PRO is back in stock, and we'v
 You were looking at 40 units a month for the Ultra Bee. Is that still the plan, or has the timing moved?
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---
@@ -212,7 +212,7 @@ Happy to arrange that. We're in Huizhou, Guangdong — send me the dates you're 
 If a visit isn't practical, we can do a video walkthrough of the production and test process instead.
 
 Best regards,
-[Your name] | TRB POWER
+[Your name] | [Company]
 ```
 
 ---

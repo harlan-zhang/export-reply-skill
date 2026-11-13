@@ -41,7 +41,7 @@
 - 长度按渠道：WhatsApp 2—5 句；B2C 邮件 3—6 句；B2B 邮件 8—15 行
 - 开头不客套，直接承接客户的话
 - 结尾给一个具体动作，不用 "let me know if you have any questions"
-- B2B 正式邮件结尾加 `Best regards,` + `[Your name] | TRB POWER`；WhatsApp / B2C 短回复不加
+- B2B 正式邮件结尾加 `Best regards,` + `[Your name] | [Company]`；WhatsApp / B2C 短回复不加
 
 ### 二、简短版
 

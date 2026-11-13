@@ -1,8 +1,6 @@
-# trb-export-reply · 外贸客户回复 Skill
+# TRB谈单辅助 · 外贸客户回复 Skill
 
 一个通用的 Agent Skill（不是平台专属的专家包）。把海外客户的原话变成一封能直接复制发送的回复，并附简短版、会话要点、下一步动作。
-
-仓库：<https://github.com/harlan-zhang/export-reply-skill>
 
 ## 从 GitHub 安装
 
@@ -29,7 +27,7 @@ https://github.com/harlan-zhang/export-reply-skill/archive/refs/heads/main.tar.g
 ```
 
 > 注意：`SKILL.md` 位于仓库根目录，`references/` 与 `templates/` 是同级目录。
-> 安装器需要能按路径读取原始文件（raw.githubusercontent.com），不要指向静态站点或带 SPA 回退的地址——那些会把任意路径都返回首页，导致 `references/`、`templates/` 读不到。
+> 安装器需要能按路径读取原始文件（`raw.githubusercontent.com`），不要指向静态站点或带 SPA 回退的地址——那些会把任意路径都返回首页，导致 `references/`、`templates/` 读不到。
 
 ## 这个 Skill 做什么
 
@@ -44,52 +42,51 @@ https://github.com/harlan-zhang/export-reply-skill/archive/refs/heads/main.tar.g
 
 覆盖 B2C 零售（终端骑手、个人改装玩家）与 B2B 批发（经销商、改装工作室、车队、项目采购）两类场景，话术逻辑分开，不混写。
 
-默认适配 **TRB POWER** 电动越野摩托车 / 轻型电摩动力系统（电池包、APEX FOC 控制器、中置电机、充电器、成套动力）与 **TRBEXA** 电动卡丁车业务。换成其他品类只需替换 `references/` 与 `templates/` 里的内容，四段式骨架可复用。
+内置的行业知识与场景话术面向电动越野摩托车 / 轻型电摩动力系统（电池包、FOC 控制器、中置电机、充电器、成套动力）与电动卡丁车业务。换成其他品类只需替换 `references/` 与 `templates/` 里的内容，四段式骨架可复用。
 
 ## 目录结构
 
 ```
-trb-export-reply/
-├── SKILL.md                        # 技能本体：触发条件、四段式铁律、B2C/B2B 分型、红线
-├── README.md
-├── LICENSE
-├── references/
-│   ├── company-facts.md            # 公司与品牌事实底稿（成立口径、主体信息、可适配平台）
-│   ├── product-matrix.md           # 产品参数矩阵（电池 10 个 SKU / 控制器 / 电机 / 充电器 / 卡丁车）
-│   ├── compatibility-checklist.md  # 适配核对清单（四品类必核项 + 分场景策略）
-│   ├── price-and-trade.md          # 报价前 5 项、MOQ、运费、认证、付款、保修、OEM
-│   └── tone-and-redlines.md        # 语气基线 + 禁止写法对照表 + 高危场景处理
-└── templates/
-    ├── output-blocks.md            # 四段式输出模板与变体处理
-    ├── b2c-scenarios.md            # 终端客户 13 个高频场景
-    └── b2b-scenarios.md            # 客户分级 + 经销商等 13 个场景
+SKILL.md                        # 技能本体：触发条件、四段式铁律、B2C/B2B 分型、红线
+README.md
+LICENSE
+references/
+├── company-facts.md            # 公司事实底稿（成立口径、主体信息、可适配平台）
+├── product-matrix.md           # 产品参数矩阵（电池 SKU / 控制器 / 电机 / 充电器 / 卡丁车）
+├── compatibility-checklist.md  # 适配核对清单（四品类必核项 + 分场景策略）
+├── price-and-trade.md          # 报价前 5 项、MOQ、运费、认证、付款、保修、OEM
+└── tone-and-redlines.md        # 语气基线 + 禁止写法对照表 + 高危场景处理
+templates/
+├── output-blocks.md            # 四段式输出模板与变体处理
+├── b2c-scenarios.md            # 终端客户 13 个高频场景
+└── b2b-scenarios.md            # 客户分级 + 经销商等 13 个场景
 ```
 
 ## 安装
 
-Skill 是一个文件夹，放进对应客户端的 skill 目录即可，无需构建、无依赖。
+Skill 是一个文件夹，放进对应客户端的 skills 目录即可，无需构建、无依赖。
 
 **WorkBuddy**
 
 ```
-%USERPROFILE%\.workbuddy\skills\trb-export-reply\
+%USERPROFILE%\.workbuddy\skills\TRB谈单辅助\
 ```
 
-macOS / Linux：`~/.workbuddy/skills/trb-export-reply/`
+macOS / Linux：`~/.workbuddy/skills/TRB谈单辅助/`
 
 **Claude Code**
 
 ```
-~/.claude/skills/trb-export-reply/
+~/.claude/skills/TRB谈单辅助/
 ```
 
-项目级则放到 `<项目>/.claude/skills/trb-export-reply/`。
+项目级则放到 `<项目>/.claude/skills/TRB谈单辅助/`。
 
 **其他 Agent Skills 兼容客户端**
 
-放进该客户端约定的 skills 目录（通常为 `.skills/` 或 `skills/`，每层文件夹一个 skill，内含 `SKILL.md`）。
+放进该客户端约定的 skills 目录（每层文件夹一个 skill，内含 `SKILL.md`）。
 
-**校验安装是否生效**：确认客户端能读到 `trb-export-reply/SKILL.md`，且 frontmatter 的 `name` 与文件夹名一致。重启客户端或开启新会话后生效。
+**校验安装是否生效**：确认客户端能读到 `TRB谈单辅助/SKILL.md`。重启客户端或开启新会话后生效。
 
 ## 使用
 
@@ -106,7 +103,7 @@ What's the price shipped to Sydney?
 
 也可以显式点名：
 
-- "用 trb-export-reply 帮我回这封经销商邮件"
+- "用 TRB谈单辅助 回这封经销商邮件"
 - "这单按 B2B 处理，先收资格信息再报价"
 
 ## 维护
@@ -118,10 +115,10 @@ What's the price shipped to Sydney?
 
 ## 许可证
 
-版权所有 © 2026 惠州天润邦能源科技有限公司（TRB POWER），保留所有权利。详见 [LICENSE](./LICENSE)。
+版权所有 © 2026，保留所有权利。详见 [LICENSE](./LICENSE)。
 
-包内涉及 Sur-Ron、Talaria、E-Ride Pro、79 Bike 的名称仅用于说明适配关系，TRB POWER 与上述公司无隶属、授权或背书关系。
+本项目中提及的第三方产品名称与商标归各自所有者所有。本项目与这些公司无隶属、授权或背书关系，所有兼容性描述仅指安装匹配。
 
 ## 免责声明
 
-包内的产品参数、价格规则与回复指引会随产品迭代变化。正式报价、合同、认证与交期必须以最新销售资料和团队确认为准。
+项目内的产品参数、价格规则与回复指引会随产品迭代变化。正式报价、合同、认证与交期必须以最新销售资料和团队确认为准。

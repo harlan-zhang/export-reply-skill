@@ -1,12 +1,12 @@
 ---
-name: trb-export-reply
-description: 为外贸业务员撰写可直接发送的客户回复。当用户贴出海外客户的邮件、WhatsApp / Instagram 消息、询盘表单或经销商询价，需要一封能复制即发的回复，并附简短版、会话要点与下一步动作时使用。覆盖 B2C 零售终端客户与 B2B 批发（经销商、改装工作室、车队、项目采购）两类场景。默认适配 TRB POWER 电动越野摩托车 / 轻型电摩动力系统（电池包、APEX FOC 控制器、中置电机、充电器、成套动力）与 TRBEXA 电动卡丁车业务；替换 references 与 templates 即可复用到其他外贸品类。
-description_zh: "外贸客户回复：成品回复 + 简短版 + 会话要点 + 下一步动作"
+name: TRB谈单辅助
+description: 为外贸业务员撰写可直接发送的客户回复。当用户贴出海外客户的邮件、WhatsApp / Instagram 消息、询盘表单或经销商询价，需要一封能复制即发的回复，并附简短版、会话要点与下一步动作时使用。覆盖 B2C 零售终端客户与 B2B 批发（经销商、改装工作室、车队、项目采购）两类场景。内置电动越野摩托车 / 轻型电摩动力系统（电池包、FOC 控制器、中置电机、充电器、成套动力）与电动卡丁车业务的行业知识；替换 references 与 templates 即可复用到其他外贸品类。
+description_zh: "外贸谈单辅助：成品回复 + 简短版 + 会话要点 + 下一步动作"
 description_en: "Export sales replies: copy-ready draft, short version, key takeaways, next actions"
-version: 2.0.0
+version: 2.1.0
 license: All-Rights-Reserved
 metadata:
-  author: TRB POWER
+  author: Sales Enablement
 ---
 
 # 外贸客户回复
@@ -161,7 +161,7 @@ B2B 客户分级：A 真经销（有实体/网站/明确市场/能说月量）�
 
 ## 复用到其他品类
 
-本技能默认绑定 TRB POWER 电摩动力与 TRBEXA 卡丁车业务。换成其他外贸品类时：
+本技能默认绑定电摩动力与电动卡丁车业务。换成其他外贸品类时：
 
 1. 替换 `references/product-matrix.md`（产品参数）与 `references/company-facts.md`（公司事实）
 2. 改写 `references/price-and-trade.md` 里的报价前置项与贸易规则

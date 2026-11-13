@@ -127,19 +127,10 @@ TRBEXA 三电方案由电池、电机、控制器、线束与系统匹配构成�
 
 电池尺寸与外壳 / 放电与充电连接器 / 电芯组合与容量 / BMS 选择与蓝牙功能 / 显示屏幕与 Logo / 充电器与充电电流 / 电压、功率与控制策略 / 包装、铭牌与随附配件
 
-## 8. 官网可用产品链接
+## 8. 产品页链接
 
-- Light Bee / Talaria 电池：https://trbpower.com/products/trb-power-72v-40-45-50ah-ultra-high-power-lithium-battery-for-surron-light-bee-talaria-mx-built-in-gps-300a-bms
-- Ultra Bee 电池：https://trbpower.com/products/trb-power-ultra-bee-72v-80v-88v-ultra-high-power-lithium-battery-for-surron-ultra-bee-talaria-mx-built-in-gps-300a-bms
-- Light Bee 电池套装页：https://trbpower.com/products/trb-light-bee-battery
-- 140V 80kW FOC 控制器：https://trbpower.com/products/trb-power-140v-80kw-foc-motor-controller-for-electric-motorcycle-light-bee-upgrade
-- CH30 充电器：https://trbpower.com/products/trb-apex-ch30-2300w-smart-lifepo4-battery-charger-10s-27s-100-240v-ac-16-50a-adjustable-output
-- 全部产品：https://trbpower.com/collections/all
-- 客评案例：https://trbpower.com/pages/customer-reviews
-- 联系页：https://trbpower.com/pages/contact
-- 技术博客：https://trbpower.com/blogs/news
-
-> 链接可以直接给客户。价格以产品页当前选项为准，**不凭记忆复述价格**。
+产品页、客评页与联系页的链接请从官网后台或产品资料获取，不记录在本仓库内。
+需要给客户发链接时，以当前官网实际地址为准。
 
 ## 9. 已知禁区
 
