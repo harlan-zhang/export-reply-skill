@@ -1,12 +1,13 @@
 ---
-name: TRB谈单辅助
+name: trb-export-reply
 description: 为外贸业务员撰写可直接发送的客户回复。当用户贴出海外客户的邮件、WhatsApp / Instagram 消息、询盘表单或经销商询价，需要一封能复制即发的回复，并附简短版、会话要点与下一步动作时使用。覆盖 B2C 零售终端客户与 B2B 批发（经销商、改装工作室、车队、项目采购）两类场景。内置电动越野摩托车 / 轻型电摩动力系统（电池包、FOC 控制器、中置电机、充电器、成套动力）与电动卡丁车业务的行业知识，资料缺口会到官方站点检索补齐；替换 references 与 templates 即可复用到其他外贸品类。
-description_zh: "外贸谈单辅助：成品回复 + 简短版 + 会话要点 + 下一步动作"
+description_zh: "TRB谈单辅助：成交回复 + 简短版 + 会话要点 + 下一步动作"
 description_en: "Export sales replies: copy-ready draft, short version, key takeaways, next actions"
-version: 2.2.0
+version: 2.2.1
 license: All-Rights-Reserved
 metadata:
   author: Sales Enablement
+  display_name: TRB谈单辅助
 ---
 
 # 外贸客户回复

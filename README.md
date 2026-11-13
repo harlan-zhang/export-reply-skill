@@ -2,6 +2,10 @@
 
 一个通用的 Agent Skill（不是平台专属的专家包）。把海外客户的原话变成一封能直接复制发送的回复，并附简短版、会话要点、下一步动作。
 
+> **命名说明**：`SKILL.md` 的 `name` 字段受 Agent Skills 规范约束，**只能用小写字母、数字、连字符**（≤64 字符）。写中文会直接判 `package-invalid`，安装失败。
+> 所以 `name` 用 `trb-export-reply`，中文名「TRB谈单辅助」放在 `description_zh` 与 `metadata.display_name` 里。
+> 安装目录名请与 `name` 保持一致，即 `trb-export-reply/`。
+
 ## 从 GitHub 安装
 
 支持 Git 源安装的客户端（Cherry Studio、Claude Code 等）直接用仓库地址：
@@ -69,24 +73,24 @@ Skill 是一个文件夹，放进对应客户端的 skills 目录即可，无需
 **WorkBuddy**
 
 ```
-%USERPROFILE%\.workbuddy\skills\TRB谈单辅助\
+%USERPROFILE%\.workbuddy\skills\trb-export-reply\
 ```
 
-macOS / Linux：`~/.workbuddy/skills/TRB谈单辅助/`
+macOS / Linux：`~/.workbuddy/skills/trb-export-reply/`
 
 **Claude Code**
 
 ```
-~/.claude/skills/TRB谈单辅助/
+~/.claude/skills/trb-export-reply/
 ```
 
-项目级则放到 `<项目>/.claude/skills/TRB谈单辅助/`。
+项目级则放到 `<项目>/.claude/skills/trb-export-reply/`。
 
 **其他 Agent Skills 兼容客户端**
 
 放进该客户端约定的 skills 目录（每层文件夹一个 skill，内含 `SKILL.md`）。
 
-**校验安装是否生效**：确认客户端能读到 `TRB谈单辅助/SKILL.md`。重启客户端或开启新会话后生效。
+**校验安装是否生效**：确认客户端能读到 `trb-export-reply/SKILL.md`。重启客户端或开启新会话后生效。
 
 ## 使用
 
@@ -103,7 +107,7 @@ What's the price shipped to Sydney?
 
 也可以显式点名：
 
-- "用 TRB谈单辅助 回这封经销商邮件"
+- "用 trb-export-reply 回这封经销商邮件"
 - "这单按 B2B 处理，先收资格信息再报价"
 
 ## 维护
