@@ -1,0 +1,150 @@
+# 产品矩阵与参数
+
+> 参数以此文件为唯一依据。带 ⚠️ 的是有过口径冲突或未确认的项。具体 SKU、适配、配件、交期必须按车型、年款、电池舱、接口再确认。
+
+## 1. 产品结构
+
+| 一级品类 | 包含 | 主要应用 |
+|---|---|---|
+| 电池系统 | 高倍率锂电、半固态电池、智能 BMS | Light Bee、Ultra Bee、Talaria、E-Ride Pro、79 Bike |
+| 控制器 | APEX FOC 控制器、线束 | 72V / 84V / 96V / 100V / 140V 平台 |
+| 电机 | APEX 中置电机 | 电动越野车、轻蜂、极蜂、高功率改装车 |
+| 充电器 | CH30 系列智能充电器 | 10S—27S 电池包、多电压系统 |
+| 成套动力 | 电池 + 控制器 + 电机 + 线束 | 完整升级、油改电、卡丁车、项目定制 |
+| 配件 | 链轮、脚踏、连接器、定制件 | 电摩改装与整车匹配 |
+| 卡丁车 | TRBEXA D1、R Series | 漂移娱乐、训练、竞赛研发平台 |
+
+## 2. 电池
+
+| SKU | 标称电压 | 容量 | 功率 / 电流（资料确认） | 主要方向 |
+|---|---:|---:|---|---|
+| TRB7245 15C | 72V | 45Ah / 3330Wh | 300A 持续；650A 脉冲；22.2kW 额定；**48.1kW 脉冲** | Light Bee / Talaria 高倍率升级 |
+| TRB7250 9C | 72V | 50Ah | 30kW 峰值 | Light Bee / Talaria |
+| TRB7255 9C | 72V | 55Ah | 36kW 峰值 | Light Bee / Talaria |
+| TRB7265 9C PRO | 72V | 65Ah | 45kW 峰值；Samsung 电芯 | Ultra Bee |
+| TRB7280 8C PRO | 72V | 80Ah | 48kW 峰值；SK 电芯 | Ultra Bee |
+| TRB8080 8C PRO | 80V | 80Ah | 56kW 峰值；SK 电芯 | Sur-Ron Ultra Bee |
+| TRB8045 15C | 80V | 45Ah | 40kW 峰值；JK 300A/600A | Ultra Bee 系列 |
+| TRB8445 15C | 84V | 45Ah | 45kW 峰值；JK 300A/600A | Ultra Bee 系列 |
+| TRB8845 15C | 88V | 45Ah | 52kW 峰值；ANT 340A/750A | Ultra Bee 系列 |
+| 96V 60Ah 半固态 | 96V | 60Ah | ⚠️ 峰值功率**未确认** | 半固态高性能平台 |
+
+### ⚠️ 72V 45Ah 口径冲突
+旧资料曾出现 **56kW**，与当前确认的 **48.1kW 脉冲功率** 冲突。**统一用 48.1kW 脉冲 / 22.2kW 额定**，禁止使用 56kW。
+
+### 72V 45Ah 核心配置
+
+| 项目 | 参数 |
+|---|---|
+| 标称电压 | 72V |
+| 标称容量 | 45Ah / 3330Wh |
+| 最大持续放电 | 300A |
+| 最大脉冲放电 | 650A |
+| 最大额定功率 | 22.2kW |
+| 最大脉冲功率 | 48.1kW |
+| 充电电压 | 84V |
+| 最大充电电流 | 20A / 40A |
+| 放电连接器 | QS8 / QS10，可定制 |
+| 充电连接器 | XT60 / XT90，可定制 |
+| 电芯 | Samsung / EVE / Panasonic / SK，可定制 |
+| BMS | ANT / JK 蓝牙 BMS |
+| 防护等级 | IP67 |
+| 外壳 | 金属外壳 / 304 |
+| 内部连接 | 铜镍复合 |
+| 导热抗震 | 导热硅胶 |
+| 工作温度 | -20℃ 至 60℃ |
+| 循环寿命 | 1000 次 |
+| 重量 | 18—21kg |
+| 尺寸 | 400 × 160 × 140mm，可定制 |
+| 质保 | 1 年 |
+
+### 通用电池能力
+- 支持不同电压与容量组合
+- 支持蓝牙 BMS 与屏幕数据
+- 支持接口、尺寸、Logo、包装定制
+- 可配高倍率电芯与高电流连接器
+- 可按车型平台做结构与接口适配
+
+## 3. 控制器
+
+| 产品 | 电压平台 | 峰值功率 | 主要用途 |
+|---|---:|---:|---|
+| APEX E100 Pro | 84V | 35kW 峰值 | 72V / Light Bee 类高性能系统 |
+| APEX E140 Pro | 140V | 80kW 峰值 | 高电压、高功率改装与竞赛系统 |
+| 72V FOC 系列 | 72V | 25kW 峰值 | 轻蜂及轻型电摩升级 |
+| 100V FOC 系列 | 100V | 35kW 峰值 | 高功率电摩平台 |
+| 140V FOC 系列 | 140V | 80kW 峰值 | 高性能高电压平台 |
+
+标准包装通常含控制器、线束、用户手册各 1 份。实际套装内容按 SKU 与订单确认。
+
+E140 Pro 特性（官网口径）：Regen braking、BT App、72—100V 工作 / 140V 等级、800A 峰值 / 18kW 额定。
+
+## 4. 电机
+
+| 型号 | 电压 | 峰值功率 | 峰值扭矩 | 最高转速 | 适配 |
+|---|---:|---:|---:|---:|---|
+| APEX M24 T | 72V | 24kW | 60N·m | 10000rpm | Talaria MX3 / MX4 / MX5 |
+| APEX M26 | 72V | 26kW | 65N·m | 9000rpm | Light Bee、Talaria X3、E-Ride Pro、79 Bike Falcon |
+| APEX M40 | 96V | 40kW | 70N·m | 14000rpm | Ultra Bee 及高功率改装车 |
+| APEX M50 PRO | 96V | 50kW | 90N·m | 13000rpm | Light Bee、Talaria X3、E-Ride Pro、79 Bike Falcon |
+| APEX M81 PRO | ⚠️ 待确认 | 81kW | ⚠️ 待确认 | ⚠️ 待确认 | Ultra Bee 及赛事改装方向 |
+
+资料确认 M24 T、M26、M40、M50 PRO 为 **IP67**。
+⚠️ **M81 PRO 只确认 81kW**，其余参数一律不许推测或补写。
+
+安装前必须核对：车架安装位、控制器、电压、传动系统、冷却条件。
+
+## 5. 充电器
+
+| 产品 | 输入 | 输出范围 | 功率 | 特点 |
+|---|---|---|---:|---|
+| APEX CH30 Ultra | 100—240V AC | 30—98V；5—50A 可调 | 2300W | 多串数、多化学体系、可调输出 |
+| CH30 系列 | 100—240V AC | 支持锂电池及多串数系统 | 约 2300W | 风扇散热、电压电流可调 |
+
+充电器必须按电池化学体系、串数、满充电压、BMS 允许充电电流、接口匹配。
+
+## 6. 整车与卡丁车
+
+### TRB Apex 52kW（高性能电动越野摩托车）
+- 电机：中置永磁同步电机
+- 额定功率 26kW / 瞬时峰值 52kW
+- 电池：72V 45Ah / 3.24kWh
+- 控制器：TRB Apex E100 Pro，峰值相电流 800A
+- 控制：FOC + MTPA + 弱磁控制
+- 传动：链条传动
+- ⚠️ 最高速度、续航、重量、轮胎尺寸：以最终测试及确认配置为准，**不报具体数字**
+
+### TRBEXA 卡丁车
+
+| 型号 | 定位 | 状态 | 速度口径 |
+|---|---|---|---|
+| TRBEXA D1 SPORT | 电动漂移卡丁车 | 在售方向 | 约 80km/h 为 **target**，认证状态待确认 |
+| TRBEXA R1 / R2 / R3 | 竞赛卡丁车研发系列 | **未量产、未认证、未交付** | 120—160km/h 为**工程目标**，非实测 |
+
+TRBEXA 三电方案由电池、电机、控制器、线束与系统匹配构成，保留油改电与项目定制能力。
+
+## 7. 定制能力
+
+电池尺寸与外壳 / 放电与充电连接器 / 电芯组合与容量 / BMS 选择与蓝牙功能 / 显示屏幕与 Logo / 充电器与充电电流 / 电压、功率与控制策略 / 包装、铭牌与随附配件
+
+## 8. 官网可用产品链接
+
+- Light Bee / Talaria 电池：https://trbpower.com/products/trb-power-72v-40-45-50ah-ultra-high-power-lithium-battery-for-surron-light-bee-talaria-mx-built-in-gps-300a-bms
+- Ultra Bee 电池：https://trbpower.com/products/trb-power-ultra-bee-72v-80v-88v-ultra-high-power-lithium-battery-for-surron-ultra-bee-talaria-mx-built-in-gps-300a-bms
+- Light Bee 电池套装页：https://trbpower.com/products/trb-light-bee-battery
+- 140V 80kW FOC 控制器：https://trbpower.com/products/trb-power-140v-80kw-foc-motor-controller-for-electric-motorcycle-light-bee-upgrade
+- CH30 充电器：https://trbpower.com/products/trb-apex-ch30-2300w-smart-lifepo4-battery-charger-10s-27s-100-240v-ac-16-50a-adjustable-output
+- 全部产品：https://trbpower.com/collections/all
+- 客评案例：https://trbpower.com/pages/customer-reviews
+- 联系页：https://trbpower.com/pages/contact
+- 技术博客：https://trbpower.com/blogs/news
+
+> 链接可以直接给客户。价格以产品页当前选项为准，**不凭记忆复述价格**。
+
+## 9. 已知禁区
+
+- 不提供价格、交期、认证范围、库存承诺——必须由当前销售资料确认
+- 96V 60Ah 半固态：峰值功率未确认，不得补数字
+- M81 PRO：只确认 81kW
+- TRBEXA R Series：目标值，非实测、非认证、非已交付
+- 72V 45Ah：用 48.1kW，不用 56kW
