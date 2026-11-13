@@ -8,7 +8,7 @@
 - **中文企业名**：惠州天润邦能源科技有限公司
 - **英文企业名（产品标签使用）**：Huizhou TRB Energy Technology Co., Ltd.
 - **所在地**：中国广东省惠州市
-- **官网**：见内部资料
+- **官网**：https://trbpower.com/ （卡丁车线见 https://trbexa.com/ ）
 - **公开邮箱**：service@trbpower.com
 - **公开电话**：+65 80999667
 
